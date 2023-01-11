@@ -8,6 +8,19 @@ Created on Sun May  8 21:01:15 2022
 import pickle
 import streamlit as st
 from streamlit_option_menu import option_menu
+st.markdown(
+    """
+    <style>
+    .reportview-container {
+        background: url("https://images.app.goo.gl/LFCobouKtT7oZ7Qv7")
+    }
+   .sidebar .sidebar-content {
+        background: url("https://images.app.goo.gl/LFCobouKtT7oZ7Qv7")
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
 
 
