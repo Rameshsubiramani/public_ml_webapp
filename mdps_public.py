@@ -10,6 +10,18 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 
 
+page_bg_img = '''
+<style>
+body {
+background-image: url("https://images.unsplash.com/photo-1542281286-9e0a16bb7366");
+background-size: cover;
+}
+</style>
+'''
+
+st.markdown(page_bg_img, unsafe_allow_html=True)
+
+
 # loading the saved models
 
 diabetes_model = pickle.load(open('diabetes_model.sav', 'rb'))
